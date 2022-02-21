@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 To run the example please follow the below mentioned steps
  - Open a cmd prompt or git bash and execute npm run server
- - Open a second command prompt and execuate npm run generate. This will generate the records using faker. At present only 100000 records have been committed in the branch. Need to change the value the server/generate.js to 500000.
+ - Open a second command prompt and execuate npm run generate. This will generate the records using faker. At present only 1000 records have been committed in the branch. Need to change the value the server/generate.js to 1000000.
  - Open a git bash and execute npm install.
  - Execute ng serve --open.
 
