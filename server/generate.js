@@ -2,7 +2,7 @@ var faker = require('faker');
 
 var database = { customers: []};
 
-for (var i = 1; i<= 1000; i++) {
+for (var i = 1; i<= 100000; i++) {
   database.customers.push({
     customerId: i,
     customerName: faker.name.firstName(),
