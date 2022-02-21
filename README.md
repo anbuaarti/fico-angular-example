@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
+To run the example please follow the below mentioned steps
+ - Open a cmd prompt or git bash and execute npm run server
+ - Open a second command prompt and execuate npm run generate. This will generate the records using faker.
+ - Open a git bash and execute npm install.
+ - Execute ng serve --open.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
