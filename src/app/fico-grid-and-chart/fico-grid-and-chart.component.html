@@ -1,0 +1,23 @@
+<div>
+    <div style="width: 100%; height: 250px;" id="lineChart"></div>
+</div>
+<div>
+    <div style="width: 100%; height: 250px;" id="scatterChart"></div>
+</div>
+<div>
+    <div class="fico-table-title">
+        <h2 >Tabular Data</h2>
+    </div>
+    <div>
+        <ag-grid-angular 
+        style="width: 100%; height: 500px;" 
+        class="ag-theme-alpine"
+        [rowData]="customers" 
+        [pagination]="true"
+        [columnDefs]="columnDefs"
+        [chartThemeOverrides]="chartThemeOverrides"
+        (firstDataRendered)="onFirstDataRendered($event)"
+    >
+    </ag-grid-angular>
+    </div>
+</div>
